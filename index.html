@@ -217,7 +217,7 @@ function logoHTML(name, split) {
 /* NAV */
 const nav = document.getElementById('nav');
 nav.innerHTML = `
-  <a href="#" class="nav-logo"><img src="tactonix_logo_dark_theme.png" alt="Tactonix" style="height:32px;width:auto;display:block;"></a>
+  <a href="#" class="nav-logo"><img src="tactonix_logo_dark_theme.png" alt="Tactonix" style="height:64px;width:auto;display:block;"></a>
   <ul class="nav-links">
     ${CONTENT.nav_links.map(l => `<li><a href="${l.anchor}">${l.label}</a></li>`).join('')}
     <li><a href="#contact" class="nav-cta">${CONTENT.nav_cta_label}</a></li>
